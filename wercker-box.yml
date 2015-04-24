@@ -12,8 +12,3 @@ script: |
 
   curl https://raw.githubusercontent.com/creationix/nvm/v0.24.1/install.sh | bash
   source $HOME/.nvm/nvm.sh
-  echo 'source $HOME/.nvm/nvm.sh' | sudo tee -a /etc/profile
-
-  nvm install iojs-v1.8
-
-  nvm use iojs-v1.8
