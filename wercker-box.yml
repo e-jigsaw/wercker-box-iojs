@@ -17,5 +17,7 @@ script: |
   nvm install iojs-v1.4
   nvm install iojs-v1.5
   nvm install iojs-v1.6
+  nvm install iojs-v1.7
+  nvm install iojs-v1.8
 
-  nvm use iojs-v1.6
+  nvm use iojs-v1.8
