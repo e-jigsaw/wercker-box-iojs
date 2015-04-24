@@ -11,7 +11,7 @@ script: |
   sudo apt-get install build-essential curl libssl-dev -y
 
   curl https://raw.githubusercontent.com/creationix/nvm/v0.24.1/install.sh | bash
-  sh /home/ubuntu/.nvm/nvm.sh
+  source /home/ubuntu/.nvm/nvm.sh
 
   nvm install iojs-v1.8
 
